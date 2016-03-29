@@ -1,0 +1,14 @@
+.notification {
+	border: 5px solid red;
+	font-size: 40px;
+	color: red;
+}
+
+.error {
+	background: blue;
+	padding: 20px;
+}
+
+.notification.error {
+	background: yellow;
+}
