@@ -48,6 +48,13 @@ header {
 /* 
  * DIFFERENT SECTIONS, DIFFERENT STYLES
  */
+section {
+	width: 33.33%;
+}
+
+section p {
+	width: 30%;
+}
 
 #section1 {
 	background-color: #ff9999;
