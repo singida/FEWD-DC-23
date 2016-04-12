@@ -50,10 +50,7 @@ header {
  */
 section {
 	width: 33.33%;
-}
-
-section p {
-	width: 30%;
+	float: left;
 }
 
 #section1 {
@@ -66,4 +63,24 @@ section p {
 
 #section3 {
 	background-color: #9999ff;
+}
+
+@media only screen and (max-width: 400px) {
+	section {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	section {
+		width: 50%;
+	}
+	#section2 {
+		float: right;
+	}
+
+	#section3 {
+		width: 100%;
+	}
 }
