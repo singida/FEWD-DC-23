@@ -10,3 +10,11 @@ function switchWhite() {
   document.body.style.backgroundColor = 'white';
   document.body.style.color = 'black';
 }
+
+
+$('a').click(showP);
+
+function showP() {
+	event.preventDefault();
+	$('p').show();
+}
