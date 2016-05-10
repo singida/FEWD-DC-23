@@ -168,6 +168,11 @@ nav .line:first-of-type{
 .blurb > p:first-of-type{
 	margin-bottom:0;
 }
+
+.banner + .wrapper {
+	background: red;
+}
+
 .touts {
 	background: #EEE;
 	background: white;
@@ -200,6 +205,7 @@ footer {
 	padding: 2% 3%;
 }
 
+<<<<<<< HEAD
 /*how the media query should look:
 @media only screen and (max-width: 768px){
     .tagline{
@@ -227,3 +233,19 @@ footer {
 
     
 };
+=======
+@media screen and (max-width: 800px) {
+	.tout {
+		width: 100%;
+		float: none;
+	}
+
+	.hide_smaller {
+		display: none;
+	}
+}
+
+
+
+
+>>>>>>> ga-students/master

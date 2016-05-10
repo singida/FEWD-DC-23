@@ -34,13 +34,32 @@ img {
 
 .animals {
     display: flex;
+<<<<<<< HEAD
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+=======
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 900px;
+>>>>>>> ga-students/master
 }
 
 .animal {
     background: #ED07ED;
     margin: 0.5em;
     padding: 1em;
+    flex-basis: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .animals {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .animals {
+        display: block;
+    }
 }
