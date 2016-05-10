@@ -20,6 +20,8 @@ h1 {
 h2 {
     font-size: 1.25em;
     margin-bottom: 0.5em;
+    text-align: center;
+    color: white;
 }
 
 img {
@@ -30,8 +32,15 @@ img {
  * Flexbox styles
  */
 
+.animals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .animal {
-    background: #eee;
+    background: #ED07ED;
     margin: 0.5em;
     padding: 1em;
 }

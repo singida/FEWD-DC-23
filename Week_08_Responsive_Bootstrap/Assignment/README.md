@@ -1,5 +1,7 @@
 # FEWD Week #7: Responsive Design
 
+NOTE: look at matchmaker file
+
 ---
 
 ## Description 
@@ -21,8 +23,8 @@ Relaxr's user count has grown, and the number of users accessing the site from a
 - Use media queries at a 768px breakpoint
 - As a user changes the size of a browser window:
 
-  - Content remains in appropriate ```divs```
-  - Content remains visible to the user 
+  - Content remains in appropriate ```divs``` (don't change HTML)
+  - Content remains visible to the user (or at least 95%)
   - Fonts change size appropriately 
   - Margins and padding change size appropriately 
   - Content does not overlap 
